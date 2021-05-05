@@ -17,8 +17,7 @@ This project allows users to post their projects for other users to rate accordi
     - JavaScript
     - Postgressql
 
-## Specifications
-To view the user dtories or BDD check the [specs file](specs.md).
+
 
 ### Prerequisite
 The Sunsplash project requires a prerequisite understanding of the following:
@@ -38,14 +37,6 @@ Install dependancies that will create an environment for the app to run `pip3 in
 ####  Create the Database
     - psql
     - CREATE DATABASE gallery;
-####  .env file
-Create .env file and paste paste the following filling where appropriate:
-
-    SECRET_KEY = '<Secret_key>'
-    DBNAME = 'gallery'
-    USER = '<Username>'
-    PASSWORD = '<password>'
-    DEBUG = True
 #### Run initial Migration
     python3.6 manage.py makemigrations gallery
     python3.6 manage.py migrate
